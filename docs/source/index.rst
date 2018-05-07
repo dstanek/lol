@@ -10,7 +10,7 @@ Welcome to LOL's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+Take a look at `the API <api/>`_ or `spec <_specs/petstore.yaml>`_ for the spec definition.
 
 Indices and tables
 ==================

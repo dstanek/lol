@@ -40,6 +40,7 @@ release = '0'
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinxcontrib.redoc',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -157,3 +158,10 @@ texinfo_documents = [
 
 
 # -- Extension configuration -------------------------------------------------
+redoc = [
+    {
+        'name': 'LOL API',
+        'page': 'api/index',
+        'spec': 'spec/petstore.yaml',
+    },
+]
